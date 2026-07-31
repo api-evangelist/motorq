@@ -1,0 +1,27 @@
+# Motorq
+
+> Motorq is a connected vehicle intelligence platform that taps native OEM connectivity to deliver AI-powered insights across the automotive ecosystem. It aggregates and normalizes vehicle telematics data from 25+ automotive brands and third-party sources — with no plug-in hardware or dongles — so fleets, fleet management companies, dealerships, lenders, insuretechs, and mobility companies can drive maintenance, safety, utilization, and EV use cases. Access is offered through a fleet portal, bi-directional APIs/data streams, and a Snowflake data lake integration.
+
+## About
+- [Motorq home](https://motorq.com/): Connected Vehicle Intelligence Platform
+- [About Us](https://motorq.com/about-us): Company overview
+- [Customers](https://motorq.com/customers): Customer stories
+
+## Products & Solutions
+- [Fleet Management Portal](https://motorq.com/fleet-management-portal): Cloud fleet monitoring, vehicle health, driver analytics, and the Fuse AI assistant
+- [Fleets](https://motorq.com/solutions/fleets): Solutions for fleets
+- [Dealerships](https://motorq.com/solutions/dealerships): Solutions for dealerships
+- [Lenders](https://motorq.com/solutions/lenders): Solutions for lenders and insuretechs
+
+## API
+> Motorq exposes bi-directional connected-vehicle APIs and data streams (e.g. Get Location, Create Geofence) plus a Snowflake data lake share. Access is gated to enterprise and OEM partners; there is no public developer portal, OpenAPI definition, or self-serve documentation as of this writing. Contact Motorq to request API access.
+
+## Resources
+- [Blog & News](https://motorq.com/blog-news): Connected vehicle data articles and company news
+- [Fleet Manager's Strategic Playbook](https://ebook.motorq.com/): Ebook resource
+- [Careers](https://motorq.com/careers): Open roles
+
+## Legal
+- [Privacy Policy](https://motorq.com/privacy-policy)
+- [Terms of Service](https://motorq.com/web-terms-conditions)
+- [Cookie Policy](https://motorq.com/cookie-policy)

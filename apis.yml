@@ -1,7 +1,27 @@
 aid: motorq
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/motorq.png
 name: Motorq
-description: Motorq is a company surfaced as a portfolio company of insight-partners and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Motorq is a connected vehicle intelligence platform that taps native OEM connectivity
+  to deliver AI-powered insights across the automotive ecosystem. It aggregates and normalizes
+  vehicle telematics data from 25+ automotive brands and third-party sources without plug-in hardware
+  or dongles, so fleets, fleet management companies, dealerships, lenders, insuretechs, and mobility
+  companies can drive maintenance, safety, utilization, and EV use cases. Motorq offers access through
+  a cloud fleet management portal, bi-directional APIs and data streams (Get Location, Create Geofence,
+  and more), and a Snowflake data lake integration. Its Motorq Fuse AI layer surfaces prioritized
+  recommendations ranked by severity and cost impact. API access is gated to enterprise and OEM
+  partners; there is no public self-serve developer portal or OpenAPI definition. Backed by
+  Insight Partners.
 url: https://raw.githubusercontent.com/api-evangelist/motorq/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +29,24 @@ x-backed-by:
 - insight-partners
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 3
+  pass: local-v1
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Connected Vehicles
+- Telematics
+- Fleet Management
+- Automotive
+- Vehicle Data
+- Mobility
+- IoT
+- Insight Partners Portfolio
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +54,15 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/motorq-domain-security.yml
+- type: LLMsTxt
+  url: llms/motorq-llms.txt
 - type: Website
   url: https://motorq.com/
+- type: Blog
+  url: https://motorq.com/blog-news
+- type: TermsOfService
+  url: https://motorq.com/web-terms-conditions
+- type: PrivacyPolicy
+  url: https://motorq.com/privacy-policy
